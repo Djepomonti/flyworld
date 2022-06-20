@@ -1,0 +1,22 @@
+@import "./header";
+@import "./settings";
+@import "./nav";
+
+
+@font-face {
+    font-family: Sofiapro;
+    src: url("../public/sofiapro-light.otf");
+}
+.container{
+    position: relative;
+    background: rgba(65, 65, 165, 0.05);
+    width: 1440px;
+    height: 820px;
+    
+}
+.logo{
+    position:absolute;
+    width: 383px;
+    height: 203px;
+    margin-top: -20px;
+}

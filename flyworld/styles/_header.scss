@@ -1,0 +1,43 @@
+$sombre: #1A093F;
+
+
+.header {
+    width: 1440px;
+    height: 50px;
+    background-color: $sombre;
+    color: white;
+    
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: sofiapro;
+    
+}
+
+.headerimg{
+    height: 14px;
+    cursor: pointer;
+}
+.header li {
+    display: flex;
+    margin-top: 16px;
+}
+.header em{
+    margin-right: 10px;
+}
+.header em:first-child{
+    margin-left: 10px;
+}
+.header em:last-child{
+    margin-right: 165px;
+}
+.header ul li:first-child{
+    margin-left: 165px;
+}
+.header ul .headerimg:first-child{
+    margin-right: 10px;
+}
+a{
+    cursor: pointer;
+}
