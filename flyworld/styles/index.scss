@@ -1,22 +1,128 @@
 @import "./header";
 @import "./settings";
 @import "./nav";
-
+@import "./formbook";
+@import "./cards";
 
 @font-face {
     font-family: Sofiapro;
-    src: url("../public/sofiapro-light.otf");
+    src: url("../public/Sofia\ Pro\ SemiBold.ttf");
+}
+@font-face {
+    font-family: Sofiaprobold;
+    src: url("../public/Sofia\ Pro\ Bold.ttf");
+    font-family: Sofiapro;
+    src: url("../public/Sofia\ Pro\ SemiBold.ttf");
+}
+
+h1{
+    font-family: Sofiaprobold;
+    font-size: 64px;
+    font-weight: bolder;
+    color: #1A093F;
+}
+p{
+    font-family: Sofiapro;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-flex;
 }
 .container{
     position: relative;
     background: rgba(65, 65, 165, 0.05);
     width: 1440px;
-    height: 820px;
+    height: 690px;
+    margin: 0 auto;
     
 }
 .logo{
     position:absolute;
     width: 383px;
     height: 203px;
-    margin-top: -20px;
+    margin-top: -60px;
+}
+.content{
+    display: flex;
+    width: 1100px;
+    height: 482px;
+    padding-top: 172px;
+    margin-left: 165px;
+    justify-content: space-between;
+
+}
+.images1{
+    width: 446px;
+    height: 482px;
+    position: relative;
+
+}
+.imghorizontale{
+    width: 292px;
+    height: 190px;
+    border-radius: 999px;
+    background-color: #FFCED0;
+    margin-left: 155px;
+    position: absolute;
+    margin-top: -490px;
+    z-index: 999;
+    border: 6px solid #FFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+}
+.imgverticale{
+    width: 348px;
+    height: 443px;
+    border-radius: 999px;
+    background-color: #FFCED0;
+    border: 6px solid #FFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+
+}
+.btncall {
+    font-family: Sofiapro;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #FD5056;
+    padding: 18px 36px;
+    margin-top: 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color:white;
+    box-shadow: 0px 7px 20px rgba(253, 80, 86, 0.3);
+    
+}
+.textestart p:first-child{
+    color: #FD5056;
+}
+.soustitre{
+    color: #8C848F;
+}
+.world{
+    width: 21px;
+    margin-left: 10px;
+}
+.textestart h1{
+    position: relative;
+    
+}
+.fusee{
+    position:absolute;
+    width: 42px;
+    transform: matrix(-0,99, -O,14, -0,14, 0.99, 0, 0);
+    -webkit-transform: matrix(-0,99, -O,14, -0,14, 0.99, 0, 0);
+    -moz-transform: matrix(-0,99, -O,14, -0,14, 0.99, 0, 0);
+    -ms-transform: matrix(-0,99, -O,14, -0,14, 0.99, 0, 0);
+    -o-transform: matrix(-0,99, -O,14, -0,14, 0.99, 0, 0);
+    margin-top: -65px;
+    margin-left: 430px;
 }
