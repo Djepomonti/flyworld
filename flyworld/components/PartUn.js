@@ -9,7 +9,7 @@ const PartUn = () => {
         </div>
         <div className="textestart">
           <p>Explore The world <img className='world' src="World.svg" alt="world Image" /></p>
-          <h1>Let's Enjoy Your Trip <br /> With Fly World <img className='fusee' src="Launch.svg" alt="" /></h1>
+          <h1>Partez à l'aventure <br /> Avec Fly World <img className='fusee' src="Launch.svg" alt="" /></h1>
           <p className='soustitre'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
           <button className='btncall'>Start Now</button>
         </div>
