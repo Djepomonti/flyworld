@@ -10,6 +10,10 @@
     -o-border-radius: 30px;
 
 }
+.cardsImg img{
+    border-radius: 30px;
+
+}
 .cardsText{
     position: absolute;
     width: 267px;
@@ -20,10 +24,38 @@
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     background: rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(3px);
     color: white;
     top: 284px;
     left: 37px;
     padding: 15px 46px 21px 18px;
+
+}
+
+h2{
+    color: #FD5056;
+    font-family: Sofiaprobold;
+    line-height: 30px;
+}
+.explore{
+    margin-bottom: 50px;
+}
+.etoile{
+    width: 16px;
+    margin-right: 15px;
+
+   
+}
+.note{
+    display: flex;
+    font-family: Sofiaprobold;
+
+}
+.cardTitle{
+    color: white;
+    font-size: 18px;
+}
+.cardSubtitle{
+    color: white;
 
 }

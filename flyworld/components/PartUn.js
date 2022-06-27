@@ -4,8 +4,8 @@ const PartUn = () => {
     return (
         <div className="content">
         <div className="images1">
-          <div className="imgverticale"></div>
-          <div className="imghorizontale"></div>
+          <div className="imgverticale"> <img src="palmier.png" alt="image de palmier" /></div>
+          <div className="imghorizontale"> <img src="montagne.png" alt="photo de montagne" /> </div>
         </div>
         <div className="textestart">
           <p>Explore The world <img className='world' src="World.svg" alt="world Image" /></p>
