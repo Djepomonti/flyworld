@@ -1,6 +1,7 @@
 import React from 'react';
 import FindTravel from '../components/FindTravel';
 import FormBook from '../components/FormBook';
+import OurExperience from '../components/OurExperience';
 import PartUn from '../components/PartUn';
 import SimpleSlider from '../components/SimpleSlider';
 
@@ -13,6 +14,7 @@ const index = () => {
       <FormBook />
       <SimpleSlider />
       <FindTravel />
+      <OurExperience />
     </div>
   );
 };
