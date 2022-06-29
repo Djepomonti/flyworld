@@ -5,6 +5,8 @@
 @import "./cards";
 @import "./findtravel";
 @import "./ourexperience";
+@import "./besttour";
+@import "./travelgallery";
 
 @font-face {
     font-family: Sofiapro;
@@ -22,6 +24,11 @@ h1{
     font-weight: bolder;
     color: #1A093F;
 }
+h3{
+    font-family: Sofiaprobold;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1A093F;}
 p{
     font-family: Sofiapro;
     font-size: 16px;
